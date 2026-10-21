@@ -3,8 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="robots" content="noindex,nofollow">
-  <title>Personal rclone Google Drive Connection</title>
+  <title>rclone - Personal Google Drive OAuth Connection</title>
   <style>
     :root { color-scheme: light dark; font-family: system-ui, -apple-system, Segoe UI, sans-serif; line-height: 1.65; }
     body { max-width: 690px; padding: 3rem 1.25rem; margin: auto; }
@@ -16,11 +15,12 @@
 </head>
 <body>
   <main>
-    <h1>Personal rclone Google Drive Connection</h1>
-    <p>This page describes a personal Google OAuth client used to connect the open-source <a href="https://rclone.org/">rclone</a> tool to Google Drive accounts that the account owner explicitly authorizes.</p>
-    <p>The OAuth client is intended for private file management, including browsing and transferring files using rclone. It is not a hosted file-sharing service and this website does not provide a sign-in interface or receive OAuth credentials.</p>
-    <p>Google account access is granted only through Google's OAuth consent process. The permissions requested depend on the rclone configuration chosen by the user.</p>
-    <p><a href="privacy.html">Read the privacy policy</a> for details on Google data access, use, storage, and removal.</p>
+    <h1>rclone</h1>
+    <h2>Personal Google Drive OAuth connection</h2>
+    <p>This is the homepage for a personal Google OAuth application named <strong>rclone</strong>. It lets the account owner authorize the open-source <a href="https://rclone.org/">rclone</a> command-line tool to access Google Drive accounts the owner chooses.</p>
+    <p>The purpose is private file management: listing folders, reading file metadata, downloading files, uploading files, and synchronizing data when authorized. No Google Drive files are published by this website. Access to Google Drive is granted through Google's OAuth consent screen, using the scopes the user chooses when configuring rclone.</p>
+    <p>This static informational website has no sign-in page, does not receive Google OAuth credentials, and does not operate a separate file storage service. The rclone program runs under the user's control, not on this site.</p>
+    <p><strong>Privacy:</strong> <a href="https://tchelio.github.io/privacy.html">Read the privacy policy</a> to learn what Google user data can be accessed, how it is used, how credentials are stored, and how access can be revoked.</p>
   </main>
   <footer>Independent personal configuration; not affiliated with Google or the rclone project.</footer>
 </body>

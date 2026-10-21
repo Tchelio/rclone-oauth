@@ -3,8 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="robots" content="noindex,nofollow">
-  <title>Privacy Policy – Personal rclone Google Drive Connection</title>
+  <title>rclone - Privacy Policy</title>
   <style>
     :root { color-scheme: light dark; font-family: system-ui, -apple-system, Segoe UI, sans-serif; line-height: 1.65; }
     body { max-width: 690px; padding: 3rem 1.25rem; margin: auto; }
@@ -16,22 +15,22 @@
 </head>
 <body>
   <main>
-    <p><a href="./">← Home</a></p>
-    <h1>Privacy Policy</h1>
-    <p>Last updated: October 20, 2026</p>
-    <p>This policy applies to a personal Google OAuth client configured for use with the open-source rclone tool, as described on the <a href="./">homepage</a>.</p>
+    <p><a href="https://tchelio.github.io/">Home</a></p>
+    <h1>rclone - Privacy Policy</h1>
+    <p>Last updated: October 21, 2026</p>
+    <p>This policy describes the personal Google OAuth application named <strong>rclone</strong> and its use with the open-source rclone command-line tool. It is maintained by the owner of this GitHub Pages site, not by Google or the official rclone project. See the <a href="https://tchelio.github.io/">application homepage</a>.</p>
 
     <h2>What data is accessed</h2>
-    <p>With the Google account owner's authorization, rclone may access Google Drive file and folder metadata, file content, and, if the user grants write access, may create, change, or delete Drive files. The exact access depends on the OAuth scopes selected in rclone.</p>
+    <p>With the Google account owner's explicit OAuth authorization, the rclone tool may access Google Drive file and folder names, identifiers, sizes and other metadata, as well as file contents. If the owner selects a scope with write permissions, it may also create, change, move, and delete files or folders. Access is limited to the Google Drive permissions that the user approves in the consent screen.</p>
 
     <h2>How data is used</h2>
-    <p>Google Drive data is processed by rclone only to perform the user's requested file operations, such as listing, downloading, uploading, or synchronizing files. This personal OAuth setup does not operate a separate cloud backend or sell Google user data.</p>
+    <p>Google Drive data is used only to perform file operations initiated or configured by the account owner, such as browsing, copying, downloading, uploading, backing up, and synchronizing files. The static website does not collect, inspect, process, or store Google Drive files. This configuration does not use Google user data for advertising, marketing, profiling, or AI model training.</p>
 
     <h2>Storage and sharing</h2>
-    <p>OAuth access and refresh tokens are handled by rclone and are normally stored in the user's local rclone configuration. This static website does not receive tokens, Google Drive files, or account credentials. Files may be transferred to other storage destinations only when the user configures and initiates such operations in rclone. Google Drive data is not shared for advertising or marketing.</p>
+    <p>Google OAuth access and refresh tokens are handled by rclone and are normally stored in the user's local rclone configuration, under the user's control. The website does not receive these tokens, Google account passwords, or Drive data. The user is responsible for restricting access to their local configuration and any storage destinations they select. Files may be transferred to other storage providers only when the user explicitly configures rclone to perform those operations. This OAuth website does not sell, broker, or disclose Google user data to advertisers.</p>
 
     <h2>Retention and deletion</h2>
-    <p>Files and local credentials remain subject to the user's own rclone and storage configuration. The user can delete local rclone credentials and revoke authorization at <a href="https://myaccount.google.com/connections">Google Account Connections</a>. This static website does not maintain a separate user database.</p>
+    <p>Local credentials remain stored for as long as the user keeps their rclone configuration; downloaded or transferred files remain wherever the user chose to store them until the user removes them. To stop access, the user can delete the rclone remote or its OAuth credentials and revoke the app at <a href="https://myaccount.google.com/connections">Google Account Connections</a>. Revocation prevents further authorized API requests but does not automatically delete files the user previously transferred. This static website maintains no account database and retains no Google Drive data.</p>
 
     <h2>Website hosting</h2>
     <p>This site uses GitHub Pages. It does not include tracking scripts or a data submission form. GitHub may process standard website access information according to its own policies.</p>
